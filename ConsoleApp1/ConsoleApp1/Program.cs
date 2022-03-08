@@ -4,7 +4,7 @@ namespace ConsoleApp1
 {
     internal class Program
     {
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
             //Console.WriteLine("Hello World!");
             Console.WriteLine("Line 1");
@@ -92,6 +92,7 @@ namespace ConsoleApp1
                 //in false case this part will run
                 Console.WriteLine("Number is less than 5");
             }
+            
         }
     }
 }
