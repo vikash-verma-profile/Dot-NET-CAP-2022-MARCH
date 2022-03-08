@@ -52,6 +52,26 @@ namespace ConsoleApp1
            string meessage= (10 > 5) ? "Hi this is greater than 5" : "This is less than 5";
             Console.WriteLine(meessage);
 
+            Console.WriteLine("Please enter some choice");
+            int WeekdayNumber=Convert.ToInt32(Console.ReadLine());
+            //switch
+            switch (WeekdayNumber)
+            {
+                case 1:
+                    Console.WriteLine("Today is Sunday");
+                    break;
+                case 2:
+                    Console.WriteLine("Today is Monday");
+                    break;
+                case 3:
+                    Console.WriteLine("Today is Tuesday");
+                    break;
+                default:
+                    Console.WriteLine("Please enter the correct choice");
+                    break;
+            }
+
+
         }
     }
 }
