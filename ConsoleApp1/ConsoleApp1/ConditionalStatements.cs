@@ -6,7 +6,7 @@ namespace ConsoleApp1
 {
     internal class ConditionalStatements
     {
-        static void Main(string[] args)
+        static void Main2(string[] args)
         {
             //int SampleNumber=Convert.ToInt32(Console.ReadLine());
             ////check a number is postive or negative and also check for whole number
