@@ -70,8 +70,28 @@ namespace ConsoleApp1
             Console.WriteLine((Number1 == Number2)&&(Number1 != Number2));//false Boolean
             Console.WriteLine((Number1 == Number2) || (Number1 != Number2));//true
             Console.WriteLine(!(Number1 == Number2));//true
+            Console.WriteLine("============Type casting and taking input from user===========================");
+            Console.WriteLine("Please enter some Value:-");
+            string Dummy=Console.ReadLine();
+            Console.WriteLine("Please enter integer value:-");
+            int InputNumber = Convert.ToInt32(Console.ReadLine()); //string
+            //type mismatch 
+            //type casting
+            Console.WriteLine("The value entered by user is "+Dummy);
+            Console.WriteLine("after converting to int " + InputNumber);
             Console.WriteLine("============Conditional Statements and Terrnary Operator===========================");
 
+            //check a number is greater than 5 or not
+            if (InputNumber > 5) //if your expression is true
+            {
+                //then this part will run
+                Console.WriteLine("Number is greater than 5");
+            }
+            else
+            {
+                //in false case this part will run
+                Console.WriteLine("Number is less than 5");
+            }
         }
     }
 }
