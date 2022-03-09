@@ -8,7 +8,7 @@ namespace Keywords
     //Call by reference
     internal class CallByValuueandcallByreference
     {
-        static void Main(string[] args)
+        static void Main4(string[] args)
         {
             int a=2, b = 3;
             Console.WriteLine("Value of a= {0} and b={1} before swapping",a,b);
