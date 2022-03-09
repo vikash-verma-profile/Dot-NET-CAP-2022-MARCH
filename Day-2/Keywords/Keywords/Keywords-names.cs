@@ -6,7 +6,7 @@ namespace Keywords
 {
     internal class Keywords_names
     {
-        static void Main(string[] args)
+        static void Main3(string[] args)
         {
             //var and dynamic keyword
             //var was a compile time variable
