@@ -6,7 +6,7 @@ namespace Keywords
 {
     internal class _2Darrays
     {
-        static void Main(string[] args)
+        static void Main5(string[] args)
         {
             int[,] array1 = new int[2, 2];//{ { 1, 2 },{ 3, 4 } };
             Console.WriteLine("Please enter Matrix values");
