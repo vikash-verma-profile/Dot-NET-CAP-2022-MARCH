@@ -1,0 +1,14 @@
+C:\Users\om\Desktop\Dot-Net-Cap-March-2022\Day-2\Keywords\Keywords\bin\Debug\netcoreapp3.1\Keywords.exe
+C:\Users\om\Desktop\Dot-Net-Cap-March-2022\Day-2\Keywords\Keywords\bin\Debug\netcoreapp3.1\Keywords.deps.json
+C:\Users\om\Desktop\Dot-Net-Cap-March-2022\Day-2\Keywords\Keywords\bin\Debug\netcoreapp3.1\Keywords.runtimeconfig.json
+C:\Users\om\Desktop\Dot-Net-Cap-March-2022\Day-2\Keywords\Keywords\bin\Debug\netcoreapp3.1\Keywords.runtimeconfig.dev.json
+C:\Users\om\Desktop\Dot-Net-Cap-March-2022\Day-2\Keywords\Keywords\bin\Debug\netcoreapp3.1\Keywords.dll
+C:\Users\om\Desktop\Dot-Net-Cap-March-2022\Day-2\Keywords\Keywords\bin\Debug\netcoreapp3.1\Keywords.pdb
+C:\Users\om\Desktop\Dot-Net-Cap-March-2022\Day-2\Keywords\Keywords\obj\Debug\netcoreapp3.1\Keywords.csproj.AssemblyReference.cache
+C:\Users\om\Desktop\Dot-Net-Cap-March-2022\Day-2\Keywords\Keywords\obj\Debug\netcoreapp3.1\Keywords.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\om\Desktop\Dot-Net-Cap-March-2022\Day-2\Keywords\Keywords\obj\Debug\netcoreapp3.1\Keywords.AssemblyInfoInputs.cache
+C:\Users\om\Desktop\Dot-Net-Cap-March-2022\Day-2\Keywords\Keywords\obj\Debug\netcoreapp3.1\Keywords.AssemblyInfo.cs
+C:\Users\om\Desktop\Dot-Net-Cap-March-2022\Day-2\Keywords\Keywords\obj\Debug\netcoreapp3.1\Keywords.csproj.CoreCompileInputs.cache
+C:\Users\om\Desktop\Dot-Net-Cap-March-2022\Day-2\Keywords\Keywords\obj\Debug\netcoreapp3.1\Keywords.dll
+C:\Users\om\Desktop\Dot-Net-Cap-March-2022\Day-2\Keywords\Keywords\obj\Debug\netcoreapp3.1\Keywords.pdb
+C:\Users\om\Desktop\Dot-Net-Cap-March-2022\Day-2\Keywords\Keywords\obj\Debug\netcoreapp3.1\Keywords.genruntimeconfig.cache
