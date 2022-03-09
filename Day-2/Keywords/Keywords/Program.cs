@@ -5,7 +5,7 @@ namespace Keywords
     internal class Program
     {
         //collection of homogeneous type of data
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
             //<data-type> [] <identfier>
             int[] Numbers;
