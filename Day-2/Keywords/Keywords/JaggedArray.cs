@@ -6,7 +6,7 @@ namespace Keywords
 {
     internal class JaggedArray
     {
-        static void Main(string[] args)
+        static void Main7(string[] args)
         {
             //1d array
             int[] _1darr = new int[2];
