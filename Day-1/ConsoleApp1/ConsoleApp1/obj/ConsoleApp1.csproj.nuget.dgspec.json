@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\om\\Desktop\\Dot-Net-Cap-March-2022\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj": {}
+    "C:\\Users\\om\\Desktop\\Dot-Net-Cap-March-2022\\Day-1\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\om\\Desktop\\Dot-Net-Cap-March-2022\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj": {
+    "C:\\Users\\om\\Desktop\\Dot-Net-Cap-March-2022\\Day-1\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\om\\Desktop\\Dot-Net-Cap-March-2022\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
+        "projectUniqueName": "C:\\Users\\om\\Desktop\\Dot-Net-Cap-March-2022\\Day-1\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
         "projectName": "ConsoleApp1",
-        "projectPath": "C:\\Users\\om\\Desktop\\Dot-Net-Cap-March-2022\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
+        "projectPath": "C:\\Users\\om\\Desktop\\Dot-Net-Cap-March-2022\\Day-1\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
         "packagesPath": "C:\\Users\\om\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\om\\Desktop\\Dot-Net-Cap-March-2022\\ConsoleApp1\\ConsoleApp1\\obj\\",
+        "outputPath": "C:\\Users\\om\\Desktop\\Dot-Net-Cap-March-2022\\Day-1\\ConsoleApp1\\ConsoleApp1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
