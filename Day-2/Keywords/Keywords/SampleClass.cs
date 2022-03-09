@@ -52,7 +52,7 @@ namespace Keywords
     }
     internal class SampleClass
     {
-        static void Main(string[] args)
+        static void Main8(string[] args)
         {
             Student student = new Student(1);
             //student.a = 1;
