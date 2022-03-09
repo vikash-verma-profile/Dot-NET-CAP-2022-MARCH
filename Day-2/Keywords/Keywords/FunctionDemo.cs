@@ -16,14 +16,21 @@ namespace Keywords
             //int a = 5, b = 5;
             return (a + b);
         }
-        static void Main(string[] args)
+        static string sampleCall(int a,int c,int b=8)
         {
-            int a=5,b=5;
-            //Console.WriteLine("Sum in main()"+(a+b));
-            int c=Sum(a);
-            DefaultSum(c: 7, a: 9, b: 10);
-            DefaultSum(a: 7, b: 9, c: 10);
-            Console.WriteLine("Sum is "+c);
+            return ("a= "+a.ToString()+",c= "+c.ToString()+", b= "+b.ToString());
+        }
+        static void Main2(string[] args)
+        {
+            Console.WriteLine(sampleCall(c:9,b:2,a:3));
+
+            //int a=5,b=5;
+            ////Console.WriteLine("Sum in main()"+(a+b));
+            //int c=Sum(a);
+            ////<parameter-name> : value
+            //DefaultSum(c: 7, a: 9, b: 10);//named parameter
+            //DefaultSum(a: 7, b: 9, c: 10);
+            //Console.WriteLine("Sum is "+c);
         }
         //method parameters
         //Default parameter
