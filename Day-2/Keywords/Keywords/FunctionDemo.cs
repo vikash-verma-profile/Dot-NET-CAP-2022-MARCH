@@ -6,18 +6,28 @@ namespace Keywords
 {
     internal class FunctionDemo
     {
-        static void Sum(int a, int b)
+        static int Sum(int a, int b=5)//default parameter
         {
             //int a = 5, b = 5;
-            Console.WriteLine("Sum in sum(): " + (a + b));
+           return(a + b);
+        }
+        static int DefaultSum(int a, int b=6,int c=6)//default parameter or optional parameter
+        {
+            //int a = 5, b = 5;
+            return (a + b);
         }
         static void Main(string[] args)
         {
             int a=5,b=5;
             //Console.WriteLine("Sum in main()"+(a+b));
-            Sum(a,b);
-            Console.WriteLine("Hi i am back in Main");
+            int c=Sum(a);
+            DefaultSum(c: 7, a: 9, b: 10);
+            DefaultSum(a: 7, b: 9, c: 10);
+            Console.WriteLine("Sum is "+c);
         }
+        //method parameters
+        //Default parameter
+        //named parameter
         //<function return type> function Name(<function-parameters>)
       
         //create a program to create a calculator
