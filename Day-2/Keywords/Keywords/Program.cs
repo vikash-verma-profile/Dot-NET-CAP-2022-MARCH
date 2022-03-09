@@ -17,11 +17,28 @@ namespace Keywords
             {
                 Console.WriteLine(NumbersList[index]);
             }
+
+
             Console.WriteLine("================For-Each========================");
-            foreach (var item in NumbersList)
+            foreach (int item in NumbersList)
             {
                 Console.WriteLine(item);
             }
+            Console.WriteLine("================String Manupulation========================");
+            string InputValue = "Vikash";
+            for (int i = 0; i < InputValue.Length; i++)
+            {
+                Console.WriteLine(InputValue[i]);
+            }
+            foreach (var item in InputValue)
+            {
+                Console.WriteLine(item);
+
+            }
+
+            //create a program to check out of 10 numbers which are odd and even
+            //write a program to reverse a string
+            //write a program to check whether a string is palindrome or not "MADAM"==>MADAM  DAD ==>DAD
            
         }
     }
