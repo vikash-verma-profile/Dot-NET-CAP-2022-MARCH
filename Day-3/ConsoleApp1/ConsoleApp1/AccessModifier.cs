@@ -17,10 +17,10 @@ namespace ConsoleApp1
     }
     internal class AccessModifier
     {
-        public static void Main()
+        public static void Main8()
         {
             dummy1 dummy2 = new dummy1();
-            dummy2.a=2;
+            //dummy2.a=2;
         }
     }
 }
