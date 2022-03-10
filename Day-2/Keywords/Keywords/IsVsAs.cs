@@ -25,6 +25,10 @@ namespace Keywords
             {
                 Console.WriteLine("o is class2");
             }
+            else
+            {
+                Console.WriteLine("o is neither from class 1 nor from class2");
+            }
         }
         static void Main(string[] args)
         {
@@ -38,13 +42,17 @@ namespace Keywords
             Test(c1);
             Test(c2);
 
-            object[] myobjects=new object[2];
+
+
+            object[] myobjects=new object[3];
             myobjects[0] = new Class1();
             myobjects[1] = "Vikash";
+            myobjects[2] = 1;
 
             foreach (var item in myobjects)
             {
                 string s=item as string;
+
                 if (s != null)
                 {
                     Console.WriteLine(s);
