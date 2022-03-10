@@ -35,10 +35,19 @@ namespace ConsoleApp1
     {
         public static void Main()
         {
-            Student student = new Student();
-            student.GetStudentData();
-            student.DisplayStudentData();
-
+            Student[] studentList = new Student[2];
+            int i = 0;
+            foreach (Student item in studentList)
+            {
+                var student = new Student();
+                student.GetStudentData();
+                studentList[i] = student;
+                i++;
+            }
+            foreach (var item in studentList)
+            {
+                item.DisplayStudentData();
+            }
         }
     }
 }
