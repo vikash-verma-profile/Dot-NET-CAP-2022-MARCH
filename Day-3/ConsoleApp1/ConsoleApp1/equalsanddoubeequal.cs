@@ -6,7 +6,7 @@ namespace ConsoleApp1
 {
     internal class equalsanddoubeequal
     {
-        static void Main(string[] args)
+        static void Main2(string[] args)
         {
             string name = "Vikash";
             string myname = name;
