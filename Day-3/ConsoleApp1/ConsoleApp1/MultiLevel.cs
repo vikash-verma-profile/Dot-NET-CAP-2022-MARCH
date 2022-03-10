@@ -87,7 +87,7 @@ namespace ConsoleApp1
     }
     internal class MultiLevel
     {
-        public static void Main()
+        public static void Main7()
         {
             ColorRectangle r1 = new ColorRectangle("black","Rectangle",2.0,3.0);
             Console.WriteLine("Details of r1:");
