@@ -4,6 +4,7 @@ using System.Text;
 
 namespace ConsoleApp1
 {
+    //single level inheritnace
     //parent class // base class
     class A
     {
@@ -15,15 +16,20 @@ namespace ConsoleApp1
     {
         public int c;
     }
+    class C:B
+    {
+        public int d;
+    }
     internal class Inheritance
     {
-        public static void Main()
+        public static void Main6()
         {
-            B b=new B();
+            C b=new C();
             b.a = 1;
             b.b = 2;
             b.c = 3;
-            Console.WriteLine("a="+b.a+"b="+b.b+"c="+b.c);
+            b.d = 4;
+            Console.WriteLine("a="+b.a+"b="+b.b+"c="+b.c+"d="+ b.d);
         }
     }
 }
