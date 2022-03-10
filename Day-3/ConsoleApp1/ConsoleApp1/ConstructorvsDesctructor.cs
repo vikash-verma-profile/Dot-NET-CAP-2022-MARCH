@@ -63,52 +63,41 @@ namespace ConsoleApp1
             //student.Display();
             student []studentList = new student[5];
             int index = 0;
-            Console.WriteLine("Please enter your choice:- \n 1.Create \n 2.Delete \n 3.List");
-            int choice = Convert.ToInt32(Console.ReadLine());
-            switch (choice)
+            bool flag = true;
+            while (flag)
             {
-                case 1:
-                    var student = new student();
-                    student.GetStudentData();
-                    studentList[index] = student;
-                    index++;
-                    foreach (var item in studentList)
-                    {
-                        if (item != null)
+                Console.WriteLine("Please enter your choice:- \n 1.Create \n 2.Delete \n 3.List \n 4.Exit");
+                int choice = Convert.ToInt32(Console.ReadLine());
+                switch (choice)
+                {
+                    case 1:
+                        var student = new student();
+                        student.GetStudentData();
+                        studentList[index] = student;
+                        index++;
+                        break;
+                    case 2:
+                        Console.WriteLine("Please enter student roll_no that you want to delete");
+                        int _deleteroll_no = Convert.ToInt32(Console.ReadLine());
+                        studentList = student.DeleteStudent(studentList, _deleteroll_no);
+                        break;
+                    case 3:
+                        foreach (var item in studentList)
                         {
-                            item.Display();
+                            if (item != null)
+                            {
+                                item.Display();
+                            }
                         }
-                        
-                    }
-                    break;
-                case 2:
-                    var ostudent = new student();
-                    ostudent.GetStudentData();
-                    studentList[index] = ostudent;
-                    index++;
-                    Console.WriteLine("Please enter student roll_no that you want to delete");
-                    int _deleteroll_no = Convert.ToInt32(Console.ReadLine());
-                    studentList = student.DeleteStudent(studentList, _deleteroll_no);
-                    foreach (var item in studentList)
-                    {
-                        if (item != null)
-                        {
-                            item.Display();
-                        }
-                    }
-                    break;
-                case 3:
-                    foreach (var item in studentList)
-                    {
-                        if (item != null)
-                        {
-                            item.Display();
-                        }
-                    }
-                    break;
-                default:
-                    break;
+                        break;
+                    case 4:
+                        flag = false;
+                        break;
+                    default:
+                        break;
+                }
             }
+           
         }
     }
 }
