@@ -56,7 +56,7 @@ namespace ConsoleApp1
     }
     internal class ConstructorvsDesctructor
     {
-        public static void Main()
+        public static void Main5()
         {
             //student student = new student(101,"Raj",14);
 
