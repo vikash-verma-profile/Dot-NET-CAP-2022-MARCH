@@ -33,7 +33,7 @@ namespace ConsoleApp1
     }
     internal class ClassDemo
     {
-        public static void Main()
+        public static void Main4()
         {
             Student[] studentList = new Student[2];
             int i = 0;
