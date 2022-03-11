@@ -7,6 +7,9 @@ namespace ConsoleApp1
     //Method OverLoading
     internal class Polymorphism
     {
+        //1.Using different Data-Types in Parameters
+        //2.Using Deiffenet Number of parameters
+        //3.Name should be same of the function that are getting overloaded
         public int Add(int a,int b)
         {
             return a + b;
