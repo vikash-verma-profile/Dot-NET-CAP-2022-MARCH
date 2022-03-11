@@ -27,7 +27,7 @@ namespace ConsoleApp1
     }
     internal class PracticeProblem
     {
-        public static void Main()
+        public static void Main6()
         {
             Dog dog=new Dog();
             dog.SetName(Console.ReadLine());
