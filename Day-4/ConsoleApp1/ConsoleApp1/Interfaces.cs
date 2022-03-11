@@ -22,7 +22,7 @@ namespace ConsoleApp1
     //interface=>
     interface IA
     {
-        public void sum();
+        void sum();
     }
     internal class Interfaces:IA
     {
@@ -30,7 +30,7 @@ namespace ConsoleApp1
         {
 
         }
-        public static void Main()
+        public static void Main8()
         {
 
         }
