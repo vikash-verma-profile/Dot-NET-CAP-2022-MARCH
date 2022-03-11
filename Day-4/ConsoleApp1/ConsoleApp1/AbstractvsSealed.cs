@@ -28,7 +28,7 @@ namespace ConsoleApp1
     {
 
 
-        public static void Main()
+        public static void Main5()
         {
             //AbstractBaseClass o=new AbstractBaseClass();
             SeleadBaseClass o1=new SeleadBaseClass();
