@@ -58,7 +58,7 @@ namespace ConsoleApp1
     }
     internal class Interface2
     {
-        public static void Main()
+        public static void Main9()
         {
             Bicycle bicycle = new Bicycle();
             bicycle.changeGear(2);
