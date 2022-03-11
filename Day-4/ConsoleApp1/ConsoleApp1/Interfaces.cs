@@ -48,10 +48,10 @@ namespace ConsoleApp1
     {
 
     }
-    class D : B,C
-    {
+    //class D : B,C
+    //{
 
-    }
+    //}
 
     interface IAa
     {
