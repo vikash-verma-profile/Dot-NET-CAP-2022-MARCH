@@ -22,7 +22,7 @@ namespace ConsoleApp1
     }
     internal class Structure_Example
     {
-        public static void Main()
+        public static void Main9()
         {
             //create an reference variable of struct
             PersonStruct personStruct;
