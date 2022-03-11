@@ -4,8 +4,54 @@ using System.Text;
 
 namespace ConsoleApp1
 {
+    sealed class SeleadBaseClass
+    {
+
+    }
+    //class SeleadDerivedClass: SeleadBaseClass
+    //{
+
+    //}
+
+    abstract class AbstractBaseClass
+    {
+        abstract public void show();
+    }
+    class AbstractDerivedClass:AbstractBaseClass
+    {
+        public override void show()
+        {
+            Console.WriteLine("hi");
+        }
+    }
     internal class AbstractvsSealed
     {
+
+
+        public static void Main()
+        {
+            //AbstractBaseClass o=new AbstractBaseClass();
+            SeleadBaseClass o1=new SeleadBaseClass();
+            AbstractDerivedClass o=new AbstractDerivedClass();  
+            o.show();
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         //a class obhect cannot be created but we can inherit the class
         //abstraction
 
@@ -34,12 +80,12 @@ namespace ConsoleApp1
                 Console.WriteLine("Hi");
             }
         }
-        public static void Main()
-        {
-            Sample3 sample1 = new Sample3();
-            Sample1 sample = new Sample1();
-            sample.Print();
-        }
+        //public static void Main()
+        //{
+        //    Sample3 sample1 = new Sample3();
+        //    Sample1 sample = new Sample1();
+        //    sample.Print();
+        //}
 
         /*abstract ==> you cannot create an object but you can inherit
 if you make any function as abstract then you cannot define in the same class
