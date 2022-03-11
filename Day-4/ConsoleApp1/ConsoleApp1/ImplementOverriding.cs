@@ -27,7 +27,7 @@ namespace ConsoleApp1
     }
     internal class ImplementOverriding
     {
-        public static void Main()
+        public static void Main4()
         {
             BaseClass baseClass=new BaseClass();
             baseClass.Show();
