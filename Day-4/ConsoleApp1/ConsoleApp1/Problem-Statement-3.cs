@@ -36,7 +36,7 @@ namespace ConsoleApp1
     }
     internal class Problem_Statement_3
     {
-        public static void Main()
+        public static void Main7()
         {
 
         }
