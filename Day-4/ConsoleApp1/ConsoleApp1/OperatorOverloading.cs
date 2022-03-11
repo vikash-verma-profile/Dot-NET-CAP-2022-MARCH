@@ -37,10 +37,15 @@ namespace ConsoleApp1
     }
     internal class OperatorOverloading
     {
-        static void Main(string[] args)
+        static void Main3(string[] args)
         {
-            Calculator calc1=new Calculator(15,15);
-            Calculator calc2=new Calculator(30,30);
+            int Number1,Number2;
+            Console.WriteLine("Enter two numbers");
+            Number1=Convert.ToInt32(Console.ReadLine());
+            Number2 = Convert.ToInt32(Console.ReadLine());
+
+            Calculator calc1=new Calculator(Number1, Number2);
+            Calculator calc2=new Calculator(Number1, Number2);
             Calculator calc3 = new Calculator();
             calc3 = calc1 + calc2;
             calc3.Print();
