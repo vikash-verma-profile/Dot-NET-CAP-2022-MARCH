@@ -4,7 +4,7 @@ namespace ConsoleApp1
 {
     internal class Program
     {
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
 
             /*
