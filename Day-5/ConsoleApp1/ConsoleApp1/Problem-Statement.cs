@@ -38,7 +38,7 @@ namespace ConsoleApp1
     }
     internal class Problem_Statement
     {
-        static void Main(string[] args)
+        static void Main2(string[] args)
         {
             Car car= new Car(0);
             int fuel=int.Parse(Console.ReadLine());
