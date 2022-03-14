@@ -26,7 +26,7 @@ namespace ConsoleApp1
          */
 
         //arraylist
-        static void Main(string[] args)
+        static void Main5(string[] args)
         {
             ArrayList arrayList=new ArrayList();
             string str = "Vikash";
