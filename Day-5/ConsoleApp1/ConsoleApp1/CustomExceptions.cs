@@ -21,7 +21,7 @@ namespace ConsoleApp1
             }
             return numerator / denominator;
         }
-        static void Main(string[] args)
+        static void Main4(string[] args)
         {
             int a = 6, b = 0;
             try
