@@ -28,17 +28,21 @@ namespace ConsoleApp1
             //this block hold the code that may throw an exception
             try
             {
+                //array of length 4
                 int[] arr = { 1, 2, 3, 4 };
-
+                //            0, 1, 2, 3
+                //printed array 
                 for (int i = 0; i < arr.Length; i++)
                 {
                     Console.WriteLine(i);
                 }
+                //printing an array element that is not there inside array we have defined
                 Console.WriteLine(arr[5]);
+
                 Console.WriteLine("Hello World!");
             }
-            //this block catched the exception throw by the try block
-            catch(Exception ex)
+            ////this block catched the exception throw by the try block
+            catch (Exception ex)
             {
                 //Console.WriteLine(ex.Message);
                 Console.WriteLine(ex.StackTrace);
