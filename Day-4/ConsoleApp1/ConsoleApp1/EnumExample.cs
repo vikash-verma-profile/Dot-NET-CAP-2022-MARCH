@@ -22,7 +22,7 @@ namespace ConsoleApp1
     }
     internal class EnumExample
     {
-        public static void Main()
+        public static void Main10()
         {
             Console.WriteLine((int)month.jan);
             Console.WriteLine((int)month.feb);
