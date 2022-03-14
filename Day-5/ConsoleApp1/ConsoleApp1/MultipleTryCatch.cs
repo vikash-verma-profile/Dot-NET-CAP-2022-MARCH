@@ -4,10 +4,17 @@ using System.Text;
 
 namespace ConsoleApp1
 {
+    class sample
+    {
+
+    }
     internal class MultipleTryCatch
     {
         //finally :this block will hold the default code 
         //if we have exception or not this finally block will always run
+
+        //throw keyword:-  Used to throw an exception manually
+
         static void Main(string[] args)
         {
             int[] arr = { 19, 12, 7 };
@@ -38,6 +45,27 @@ namespace ConsoleApp1
             {
                 Console.WriteLine("Hi i am called");
             }
+
+            Console.WriteLine("=======================");
+
+            sample s=null;
+           // s=new sample();
+            try
+            {
+                if (s != null)
+                {
+                    Console.WriteLine("Sampe Object is there");
+                }
+                else
+                {
+                    throw new Exception("Sample class is not intialized");
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+           
         }
     }
 }
