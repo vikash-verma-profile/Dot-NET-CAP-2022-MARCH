@@ -15,7 +15,9 @@ namespace ConsoleApp1
 
         //throw keyword:-  Used to throw an exception manually
 
-        static void Main(string[] args)
+        //how we write custom exceptions
+
+        static void Main3(string[] args)
         {
             int[] arr = { 19, 12, 7 };
             try
