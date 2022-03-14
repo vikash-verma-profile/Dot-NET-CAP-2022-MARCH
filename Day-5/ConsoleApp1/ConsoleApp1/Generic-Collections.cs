@@ -17,8 +17,11 @@ namespace ConsoleApp1
         {
 
             Console.WriteLine("================LIST=============");
-            List<int> lst = new List<int>() { 1, 2, 3, 4, 5 };
+            //  List<int> lst = new List<int>() { 1, 2, 3, 4, 5 };
+            List<int> lst = new List<int>();
             lst.Add(1);
+            lst.Add(2);
+            lst.Add(3);
 
             foreach (var item in lst)
             {
